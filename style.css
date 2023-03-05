@@ -221,10 +221,10 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
+    height: 465px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 9px;
 }
 .about .about-content .right{
     width: 55%;
@@ -559,7 +559,7 @@ padding: 0.8% 0.5%;
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
+        height: 400px;
         width: 350px;
     }
 }
@@ -682,4 +682,11 @@ padding: 0.8% 0.5%;
         line-height: 38px;
     }
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: crimson;
 
+}
