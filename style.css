@@ -264,6 +264,7 @@ section .title::after{
 }
 .services .title::before,
 .teams .title::before{
+  
     background: #fff;
 }
 .services .title::after,
@@ -275,6 +276,7 @@ section .title::after{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
+    
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
@@ -339,11 +341,13 @@ section .title::after{
     margin-bottom: 15px;
 }
 .skills .skills-content .right .info{
+  
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
+
 .skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
@@ -474,6 +478,10 @@ section .title::after{
 .contact .contact-content .info .head{
     font-weight: 500;
 }
+.info-Add {
+    margin-left: 36px;
+}
+
 .contact .contact-content .info .sub-title{
     color: #333;
 }
